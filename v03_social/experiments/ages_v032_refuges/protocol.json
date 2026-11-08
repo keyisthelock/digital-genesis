@@ -1,0 +1,80 @@
+{
+  "ages": [
+    [
+      "Temperate start",
+      0.35,
+      1.0,
+      false,
+      0.0
+    ],
+    [
+      "Cooling",
+      0.31,
+      0.85,
+      false,
+      0.0
+    ],
+    [
+      "Ice age",
+      0.26,
+      0.68,
+      false,
+      0.0
+    ],
+    [
+      "Deglaciation",
+      0.34,
+      0.92,
+      true,
+      0.0
+    ],
+    [
+      "Warm forest",
+      0.43,
+      1.0,
+      false,
+      0.0
+    ],
+    [
+      "Volcanic disturbance",
+      0.34,
+      0.85,
+      false,
+      0.018
+    ],
+    [
+      "Dry age",
+      0.28,
+      0.98,
+      false,
+      0.0
+    ],
+    [
+      "Temperate recovery",
+      0.37,
+      1.0,
+      true,
+      0.0
+    ]
+  ],
+  "ticks_per_age": 250,
+  "seeds": 3,
+  "years_per_tick": 500,
+  "adaptation_weights": {
+    "persistence": 0.5,
+    "food_rate": 0.3,
+    "birth_rate": 0.2
+  },
+  "adaptation_components": {
+    "persistence": "fraction of horizon with living organisms",
+    "food_rate": "food energy per organism-tick, scaled by 0.5",
+    "birth_rate": "births per mature organism-tick, scaled by 0.004"
+  },
+  "stock": "regrowth changes without adding or removing food at phase boundaries",
+  "refuges": true,
+  "refuge_settings": {
+    "regrowth_floor": 0.35,
+    "daylight_floor": 0.9,
+    "retained_patch_fraction": 0.5
+  }
+}

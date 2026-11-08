@@ -1,0 +1,112 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "ticks": 1500,
+  "holdout_ticks": 500,
+  "trained_sha": "0334a74fb997ea9ff034e7680a149173f15a22722888a6f55381ececb4b4240b",
+  "arms": {
+    "asexual": [
+      "asexual",
+      0.5,
+      0.35,
+      true,
+      false
+    ],
+    "random": [
+      "random",
+      0.5,
+      0.35,
+      true,
+      false
+    ],
+    "social": [
+      "social",
+      0.5,
+      0.35,
+      true,
+      false
+    ],
+    "random_80": [
+      "random",
+      0.8,
+      0.35,
+      true,
+      false
+    ],
+    "scarcity_share": [
+      "social",
+      0.5,
+      0.28,
+      true,
+      false
+    ],
+    "scarcity_masked": [
+      "social",
+      0.5,
+      0.28,
+      false,
+      false
+    ],
+    "rule_asexual": [
+      "asexual",
+      0.5,
+      0.35,
+      true,
+      true
+    ],
+    "rule_random": [
+      "random",
+      0.5,
+      0.35,
+      true,
+      true
+    ],
+    "rule_scarcity": [
+      "social",
+      0.5,
+      0.28,
+      true,
+      true
+    ]
+  },
+  "trials": {
+    "1_first_partners": [
+      "asexual",
+      "random",
+      "rule_asexual",
+      "rule_random"
+    ],
+    "2_bond_or_instinct": [
+      "random",
+      "social"
+    ],
+    "3_lonely_world": [
+      "random",
+      "random_80"
+    ],
+    "4_moderate_scarcity": [
+      "social",
+      "scarcity_share",
+      "scarcity_masked",
+      "rule_scarcity"
+    ]
+  },
+  "training_ecology_seed_offset": 11100,
+  "holdout_ecology_seed_offset": 12100,
+  "transfer_modes": {
+    "trained32": [
+      "asexual",
+      "social"
+    ],
+    "rule": [
+      "asexual",
+      "random"
+    ]
+  },
+  "heldout_relocation_fraction": 0.5,
+  "offspring_type_A": 0.5,
+  "compatibility_distance": 2
+}

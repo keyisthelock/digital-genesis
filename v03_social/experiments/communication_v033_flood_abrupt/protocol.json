@@ -1,0 +1,44 @@
+{
+  "cases": {
+    "C": [
+      "The Great Flood",
+      400
+    ]
+  },
+  "seeds": [
+    23400,
+    23401,
+    23402,
+    23403,
+    23404,
+    23405,
+    23406,
+    23407,
+    23408,
+    23409,
+    23410,
+    23411
+  ],
+  "modules": 32,
+  "neural_genome_sha": "0334a74fb997ea9ff034e7680a149173f15a22722888a6f55381ececb4b4240b",
+  "arms": [
+    "intact",
+    "shuffled",
+    "blocked",
+    "no_learning"
+  ],
+  "case_e_control": "familiar intact partners",
+  "symbols": 4,
+  "send_cost": 0.035,
+  "distance": 2,
+  "arrival_delay": 2,
+  "outcome_delay": 4,
+  "feedback_delay": 6,
+  "challenge_rounds": 64,
+  "flood_after_round": 28,
+  "flood_grace": 0,
+  "reward": "local route outcome, +1 or -1; senders credited after delivered packet is used",
+  "neural": "existing frozen neural forward scores + individual receiver values",
+  "ecology": "controlled two-organism arenas; no reproduction during comparison",
+  "metric": "a pair survives when both members complete the full challenge"
+}

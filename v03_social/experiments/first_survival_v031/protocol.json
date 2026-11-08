@@ -1,0 +1,41 @@
+{
+  "training_stages": [
+    [
+      3101,
+      0.9,
+      true
+    ],
+    [
+      3102,
+      0.6,
+      false
+    ],
+    [
+      3103,
+      0.35,
+      false
+    ]
+  ],
+  "holdout_seeds": [
+    9101,
+    9102
+  ],
+  "ticks": 420,
+  "founder_genotypes": {
+    "8": "05add5a8f02c1457727eed945957923e566e1045c397caafadffaf658f535d90",
+    "16": "5a91f2099ca858b9310258568dae134325757b5e431936722c91db2e7f3a3b4a",
+    "32": "0334a74fb997ea9ff034e7680a149173f15a22722888a6f55381ececb4b4240b",
+    "67": "cba11bd665940259110478463220c72deaa0a5ae7f44662dc71c3b8dddda0156"
+  },
+  "conditions": [
+    "cold_off",
+    "cold_on",
+    "trained_off",
+    "trained_on",
+    "random",
+    "rule"
+  ],
+  "resource_fraction": 0.35,
+  "population": 12,
+  "cap": 24
+}

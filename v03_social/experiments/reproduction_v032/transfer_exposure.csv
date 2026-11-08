@@ -1,0 +1,7 @@
+seed,policy,status,asexual_births,paired_births
+0,trained32,insufficient disjoint birth cohorts,3,0
+0,rule,insufficient disjoint birth cohorts,29,0
+1,trained32,insufficient disjoint birth cohorts,7,1
+1,rule,evaluated,39,5
+2,trained32,insufficient disjoint birth cohorts,14,0
+2,rule,evaluated,31,6

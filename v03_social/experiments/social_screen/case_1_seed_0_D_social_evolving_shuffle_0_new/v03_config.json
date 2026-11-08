@@ -1,0 +1,70 @@
+{
+  "case": 1,
+  "seed": 0,
+  "treatment": "D_social_evolving",
+  "modules": 67,
+  "shuffle": false,
+  "environment": {
+    "seed": 0,
+    "terrain": "experiments\\social_screen\\terrain_0.json",
+    "sha256": "21fd166cece622a20acf3b6e7aa6605d60f4f66a82027bd5c93147b7b874cf76",
+    "spawns": [
+      [
+        37,
+        11
+      ],
+      [
+        37,
+        13
+      ],
+      [
+        39,
+        14
+      ],
+      [
+        41,
+        11
+      ],
+      [
+        37,
+        13
+      ],
+      [
+        38,
+        13
+      ],
+      [
+        39,
+        14
+      ],
+      [
+        41,
+        12
+      ],
+      [
+        37,
+        14
+      ],
+      [
+        37,
+        12
+      ],
+      [
+        38,
+        14
+      ],
+      [
+        39,
+        10
+      ]
+    ],
+    "unseen": false
+  },
+  "population": 12,
+  "max_population": 24,
+  "ticks": 1500,
+  "brain_parameter_cost": 2e-06,
+  "brain_op_cost": 1e-05,
+  "learning": true,
+  "freeze_genomes": false
+}

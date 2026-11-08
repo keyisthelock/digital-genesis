@@ -1,0 +1,76 @@
+{
+  "ages": [
+    [
+      "Temperate start",
+      0.35,
+      1.0,
+      false,
+      0.0
+    ],
+    [
+      "Cooling",
+      0.31,
+      0.85,
+      false,
+      0.0
+    ],
+    [
+      "Ice age",
+      0.26,
+      0.68,
+      false,
+      0.0
+    ],
+    [
+      "Deglaciation",
+      0.34,
+      0.92,
+      true,
+      0.0
+    ],
+    [
+      "Warm forest",
+      0.43,
+      1.0,
+      false,
+      0.0
+    ],
+    [
+      "Volcanic disturbance",
+      0.34,
+      0.85,
+      false,
+      0.018
+    ],
+    [
+      "Dry age",
+      0.28,
+      0.98,
+      false,
+      0.0
+    ],
+    [
+      "Temperate recovery",
+      0.37,
+      1.0,
+      true,
+      0.0
+    ]
+  ],
+  "ticks_per_age": 250,
+  "years_per_tick": 500,
+  "freeze_tick": 1500,
+  "resource_floor": 0.6,
+  "learning_rate": 0.24,
+  "epsilon": 0.22,
+  "arms": [
+    "learned",
+    "shuffled",
+    "blocked"
+  ],
+  "weights": "two group-level action value tables, initialized to zero",
+  "food": "no added food on correct actions; consume only existing patch stock",
+  "learning": "reward equals retained food divided by 10 minus 0.25 per gate attempt",
+  "cues": "independent random binary gate state revealed to sender only",
+  "controls": "all arms learn identically before freeze; control channels modified only afterward"
+}

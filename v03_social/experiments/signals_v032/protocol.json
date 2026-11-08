@@ -1,0 +1,27 @@
+{
+  "train_seeds": [
+    16100,
+    16101,
+    16102
+  ],
+  "arenas": [
+    [
+      "whiteout crossing",
+      17100,
+      10,
+      13
+    ],
+    [
+      "ash channels",
+      17200,
+      9,
+      15
+    ]
+  ],
+  "rounds": 48,
+  "movement_cost": 3,
+  "reward": "receiver energy change divided by 18, clipped to [-1,1]",
+  "learning_rate": 0.24,
+  "channel": "one bit; sender sees safe route, receiver sees only token",
+  "control": "fixed trained tables with independent shuffled cues or a constant token"
+}

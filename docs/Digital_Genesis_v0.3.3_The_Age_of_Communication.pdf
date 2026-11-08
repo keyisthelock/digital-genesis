@@ -1,0 +1,550 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+/Title (Digital Genesis v0\0563\0563 \055 The Age of Communication)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 2
+/Kids [ 4 0 R 10 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 9079
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.768627 .831373 .85098 RG
+n 43 42 m 569 42 l S
+.313725 .411765 .470588 rg
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 43 27 Tm (DIGITAL GENESIS  /  v0.3.3 RESEARCH REPORT) Tj T* ET
+BT 1 0 0 1 564.552 27 Tm (1) Tj T* ET
+q
+1 0 0 1 49 781.8898 cm
+q
+.090196 .407843 .4 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (DIGITAL GENESIS v0.3.3 / EXPERIMENT REPORT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 49 743.8898 cm
+q
+.094118 .196078 .286275 rg
+BT 1 0 0 1 0 3 Tm /F2 26 Tf 29 TL (The Age of Communication) Tj T* ET
+Q
+Q
+q
+1 0 0 1 49 665.8898 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 52 Tm /F1 12 Tf 16 TL (Individually learned signals improved pair survival over shuffled messages in four of the five) Tj T* (original environments. The abrupt flood defeated 11 of 12 communicating pairs. In an) Tj T* (exploratory follow-up on 12 fresh seeds, a low-risk interval after the route reversal let all 12) Tj T* (intact pairs survive, compared with two shuffled pairs.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 49 636.8898 cm
+q
+.090196 .407843 .4 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Individual policies and controls) Tj T* ET
+Q
+Q
+q
+1 0 0 1 49 560.8898 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 59.8 Tm /F1 10.2 Tf 14 TL (Each organism starts with its own sender and receiver weights. All four symbol slots have the same random) Tj T* (initialization distribution. Senders use local observations. Receivers see only the delivered symbol and, in the) Tj T* (two-key task, their own private key. The existing trained 32-module brain contributes to the route choice using) Tj T* (local body-state features. Its neural weights are frozen to isolate learning in the communication layer. A) Tj T* (separate 67-module run verified that the runner supports the larger brain.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 49 441.8898 cm
+q
+BT 1 0 0 1 0 101.8 Tm 14 TL /F1 10.2 Tf .137255 .215686 .27451 rg (An attempted send costs 0.035 energy by default and delivers only within two Manhattan tiles. Both) Tj T* (parameters are configurable. Packets arrive two simulated ticks after sending, the route outcome is known at) Tj T* -0.10939 Tw (tick four, and a sender receives credit at tick six only for a delivered, uncorrupted packet used in the task. Each) Tj T* 0 Tw (organism updates only its own weights. The birth adapter samples a child) Tj (') Tj (s communication genes from the) Tj T* (parents) Tj (' immutable genomes, mutates them, and starts with fresh runtime weights. The inheritance path was) Tj T* (verified through an actual simulator birth. The arena trials used the same living organisms from nursery to) Tj T* (challenge without reproduction or resets, so they measure lifetime learning and do not estimate evolutionary) Tj T* (response.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 49 364.8898 cm
+q
+BT 1 0 0 1 0 59.8 Tm 14 TL /F1 10.2 Tf .137255 .215686 .27451 rg (The intact, shuffled, and blocked arms used the same seeded nursery before the intervention. During the) Tj T* (challenge, the shuffled channel delivers independently sampled symbols from the sender) Tj (') Tj (s nursery symbol) Tj T* (distribution. The blocked channel delivers silence. Both retain the cost of attempted sends. A no-learning arm) Tj T* (uses founder weights throughout. The familiar-partner control retains both nursery pairings for Case E. A pair) Tj T* (counts as surviving only when both organisms complete all 64 challenge rounds.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 49 337.8898 cm
+q
+.090196 .407843 .4 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Main comparison) Tj T* ET
+Q
+Q
+q
+1 0 0 1 49 173.3898 cm
+q
+.094118 .196078 .286275 rg
+n 0 158.5 513 -43.5 re f*
+.917647 .952941 .952941 rg
+n 0 115 513 -23 re f*
+1 1 1 rg
+n 0 92 513 -23 re f*
+.917647 .952941 .952941 rg
+n 0 69 513 -23 re f*
+1 1 1 rg
+n 0 46 513 -23 re f*
+.917647 .952941 .952941 rg
+n 0 23 513 -23 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 131.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.9 Tm /F2 8.6 Tf 10.5 TL (Environment) Tj T* ET
+Q
+Q
+q
+1 0 0 1 162 131.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.9 Tm /F2 8.6 Tf 10.5 TL (Intact) Tj T* ET
+Q
+Q
+q
+1 0 0 1 210 131.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.9 Tm /F2 8.6 Tf 10.5 TL (Shuffled) Tj T* ET
+Q
+Q
+q
+1 0 0 1 262 131.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 1.9 Tm /F2 8.6 Tf 10.5 TL (Blocked) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310 126.25 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 12.4 Tm /F2 8.6 Tf 10.5 TL (No) Tj T* (learning) Tj T* ET
+Q
+Q
+q
+1 0 0 1 366 126.25 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 12.4 Tm /F2 8.6 Tf 10.5 TL (Intact task) Tj T* (success) Tj T* ET
+Q
+Q
+q
+1 0 0 1 441 121 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 22.9 Tm /F2 8.6 Tf 10.5 TL (Adjusted p,) Tj T* (intact vs.) Tj T* (shuffled) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 98 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (A \267 The Last Harvest) Tj T* ET
+Q
+Q
+q
+1 0 0 1 162 98 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (12/12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 210 98 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (4/12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 262 98 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (4/12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310 98 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (4/12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 366 98 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (100.0%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 441 98 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (0.0156) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 75 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (B \267 The Poisoned Garden) Tj T* ET
+Q
+Q
+q
+1 0 0 1 162 75 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (12/12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 210 75 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (0/12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 262 75 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (0/12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310 75 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (0/12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 366 75 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (100.0%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 441 75 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (0.0024) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 52 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (C \267 The Great Flood) Tj T* ET
+Q
+Q
+q
+1 0 0 1 162 52 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (1/12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 210 52 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (0/12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 262 52 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (0/12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310 52 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (0/12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 366 52 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (64.2%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 441 52 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (1.0000) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 29 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (D \267 The Two-Key Refuge) Tj T* ET
+Q
+Q
+q
+1 0 0 1 162 29 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (12/12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 210 29 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (0/12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 262 29 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (0/12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310 29 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (0/12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 366 29 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (97.9%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 441 29 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (0.0024) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 6 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (E \267 The Unseen Partner) Tj T* ET
+Q
+Q
+q
+1 0 0 1 162 6 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (24/24) Tj T* ET
+Q
+Q
+q
+1 0 0 1 210 6 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (7/24) Tj T* ET
+Q
+Q
+q
+1 0 0 1 262 6 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (3/24) Tj T* ET
+Q
+Q
+q
+1 0 0 1 310 6 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (6/24) Tj T* ET
+Q
+Q
+q
+1 0 0 1 366 6 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (87.3%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 441 6 cm
+q
+.137255 .215686 .27451 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.1 Tf 11 TL (0.0024) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 49 166.3898 cm
+Q
+q
+1 0 0 1 49 124.3898 cm
+q
+BT 1 0 0 1 0 31.8 Tm 14 TL /F1 10.2 Tf .137255 .215686 .27451 rg (Task success is per attempted round, so exposure ends at a pair) Tj (') Tj (s first death. Survival inference uses a) Tj T* (two-sided exact paired permutation over seed-level counts, with Holm correction across the five comparisons.) Tj T* (Both pairs from Case E stay grouped under their common seed.) Tj T* ET
+Q
+Q
+ 
+
+Q
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8.5 Tf
+10.2 TL
+ET
+0.23 0.36 0.42 rg
+BT
+1 0 0 1 49 75 Tm
+(Evidence\072 results\056csv\054 decisions\056csv and weights\056json in the main archive\054 plus results\056csv in both flood follow\055ups\056) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Contents 11 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 12 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 2607
+>>
+stream
+Gau0DCN%t;')eD/0jb:K?J(,]q&t7S,OG[`g2:A-5;$W+[b49K/kO#VJ,Pt4*k'hAgLg2S5\!pW4O0HW1NH/&r/8JmGt%@?79=D;MA'01.%Wn,>.pj"eO?j4BCfY";3o5d,/rHmA=:j4]*h?^Pbnae1n-/o6V2J<&YD[-'M[V41$?<0aXkWVDD+$])*:qio?KP6NOr"p%ZXR)?,!jpGI)VkT&*b&\A#Sc,J#)1T1!CXdd?_`oul+A^Z!).O121id-<Ehrqi7_fmF^_Ak?nn3BHiJMo"54(0MVg):HVW4GY?-8\CQ<k/ef70Yj=j4!(Uug"t96KU)Y9KTl0Sg+Lf(>2A&nlOP(=f69^sr/Q9);,#Hf."GSm&OJc''IA_<m-.?03QI:66S*`RKVtB>CT1l28s9tbNkAAd4<)/u(l/hinKQ-.<?)jl%c^+p=;$<cUW,kf"%i!+0qH8hPV-<4o[]C]S.mm=7DX,>=*O>#DR:4jVckM7.,PmiamUK8Dt5Q;gmZ5U17CU6&h&P\pa#N5P42dY[<E4bpqj2eCeEKu!NkIFj^i3`2qH.,QOdnJ(.[m&17NoQF-t27o7%L=<tYBX^'S#*\2UE!3gY=(bYAlE9j3/[[b<Pa8Y)>?H\lAZ\&PrYc2j)D/pD3?\#(G+);kK%`YQ>rEBRoN/N:[AP$boN\Q;7ma+b1N*1Jd6"u`Y0\s<#G6^0f,QBT0tb@hb#>?a,EPg$c]&e_dKA/6IE88OB%@$t-OVY4Or>V\oZe,sP]=dhLHihJc8_C[,nZ6NpCT9E?AFIb_Z!F@B.8WDkB&Ui.P//\MD(Xtin0AK4Va$"YuA?Hp1G20/#rMm:f5OP8D^!_VfO#Y2638`hP3&mnZfb2PAe#,epSNW`9D^'LE5TuuCJKC_#H=d#7N84iC>h,!=THrf/!4FOGQ>>HTp&Q0-:p!G0](dG=onMc;8d?MI5edQIm?IpkMoI6[Kl*1p]@-=27AiO.XU)3i.lRp5@tC&pQ4@:E2pR3ta!Tio/=dm5VGpq/CuC0a>;!IAgY>bDV*dgs_:N_WL?UWi0eUjRdV^-d0q;:SZNb?hmua2l\:Ki$1TJQ<=@F/=r]";Q4'U;#nk#[,<`uUNqB5Ngb^+s0*\6PL88p=1\*("oFPq0g7JgI;.TIs,]-jbdpOKB%kjINO*_>u>7HK9*(ND8>bo>@G-Tr!kTeAkD2o:1f<.@D@`k@D@r6?tLm_3IT?s4T\N'IA>YRP%1Rk:B,7EAu,?nOk>?>UsoK:9@Wa/uF2W3au_N>XMrB=d_'GpFbr$lG7r9n?Nb"Lq]Gp1\t>Gglb-AcK3YoBA'_OuNnt8Q`,JhZg?!eSO$jk<,W"'9>r:jj`T?D>AA!QBlm!UENQ]j<"^/76?[i[][dCP\2lh@6A*<kosBc$O/SHSNB0M<T,%-qb=*u5'.eU2(fMK0P/'F&aIQVKbZt+*ZLe>7Fr!@mV-sJ`d)&SINAY.PkZG6*TGR2NHpO+F@&q<#?II_ILrd?fL]?9#>N)uAd)#O!nDKe0H8%0Yg%RQ8q2Bf#8q=YJk7dkCU(;(?QZ],en%s\7_q8]Xu>=U9#`=(VLnuR=JJ=T\T,@T0+SpeYc>\JiMUu1@%/hfqfK=^NB9P3=s1C9Z$o=(/(X[4E&<Cu'?i(RKJrB;i^]#8<lTp";:,0u8/U(Va0f]a4PN6FEq/ISSh6RFoZ\$uNHu"$%`4#Al[r_o=]8`D9!6TahX=KmT=<<eOG@OjQ(V!4T!a4<!J?u^,CZZ/HP\<Sdm^c\YX!A*A?#-ZeQg0+:b5XG:no>aU\i(Ddof]$6&qSi5lsEhQqA,$7s^:*h<&q*G]#;iB9GF+Z[K:eSdjin:.qHs%`<'B"H:JZ>e(9S)\D;B\(blV0uQl)G1;.[`Fku[//A`2?8;.Go-+D@h]Lq3S#sV7H_*`cahOOgG<(D)L_`7SNQOUAST>c(T-;<h#gC*-Y@qG]3YD/U*=Zc!01C&d!$+ltLa=;N#H]*&J8B+bKafI$k@#6E'rK_/%Rhs;h._VlIE>S4:_bRnpGXb\(Y#jq9-rE@,']4h%@cBS]A=,(!+lHm!><#a8d4;sG/Q,r,u*A-0^PLW#"CHc7#Z3DgpXkbJNkI/BqX/3<m_3g'(rm\KE_;1PcVu^3FCPLZoAHk.L=F'=c@uZ[Wu6i!^-q?7kb7@#H']GYZ:lD"?^P[ghtLU(_[PN$),Nc+C'UP)Q*cnT?o76YbJ.t.9d':Qrb[@1-k."^b=8D#HTE7W-L,%Y\t^'VSC=56[,RI,U.%\BB^K/')AT0lX0H/@9qM+-h+h2c(=N7:p9s.kPDH9kt%NtPRj6!n'8jln^+u4E)+c4n?YBl5_lQ>iY0)Xg<j>.Ffa7$'a)+!?Bja0&V&LT"Nu-5Pd4Zj<'S+A2`^C#TNJLTgkBCVP1"&fUa@-niMf%*bW?mDkOD<OL&Upe5E%>WSPg6214pl6!+%nbS`/e5WmRB]r#'t`EDc["j"["#`m/Xe!dAd5fZG,kT+*iQ53E0OIh6]S0`,2:6bq<!-k.KeF>A,(Ts,mAfe-VrOj>dR4PnkB.3F)EpqJ'gU*":s$Bj$"5/Vqc5A&V&KKkT7G*M=](Nf0`%$Z^D~>
+endstream
+endobj
+12 0 obj
+<<
+/F1 6 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000015 00000 n 
+0000000122 00000 n 
+0000000188 00000 n 
+0000000237 00000 n 
+0000000490 00000 n 
+0000009621 00000 n 
+0000009728 00000 n 
+0000009835 00000 n 
+0000009947 00000 n 
+0000010052 00000 n 
+0000010254 00000 n 
+0000012954 00000 n 
+trailer
+<<
+/Size 13
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+13006
+%%EOF

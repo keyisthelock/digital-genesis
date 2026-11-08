@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+.packages/
+.env
+.env.*
+results/
+*.pkl
+*.log

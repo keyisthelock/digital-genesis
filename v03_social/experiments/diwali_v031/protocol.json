@@ -1,0 +1,53 @@
+{
+  "stages": [
+    {
+      "stage": "A",
+      "seed": 4201,
+      "resource_fraction": 0.9,
+      "hazards": false,
+      "brain_charge": false,
+      "ticks": 70
+    },
+    {
+      "stage": "B",
+      "seed": 4202,
+      "resource_fraction": 0.9,
+      "hazards": false,
+      "brain_charge": true,
+      "ticks": 70
+    },
+    {
+      "stage": "C",
+      "seed": 4203,
+      "resource_fraction": 0.6,
+      "hazards": true,
+      "brain_charge": true,
+      "ticks": 90
+    },
+    {
+      "stage": "D",
+      "seed": 4204,
+      "resource_fraction": 0.35,
+      "hazards": true,
+      "brain_charge": true,
+      "ticks": 220
+    }
+  ],
+  "holdout_seeds": [
+    9201,
+    9202,
+    9203
+  ],
+  "lineage_seeds": [
+    9301,
+    9302,
+    9303
+  ],
+  "holdout_ticks": 360,
+  "lineage_ticks": 240,
+  "population": 12,
+  "cap": 24,
+  "holdout_resource_fraction": 0.35,
+  "sharing_control_modules": 32,
+  "first_lineage": "first archived birth by size, then training stage, then held-out seed and arm"
+}

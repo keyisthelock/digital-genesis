@@ -1,0 +1,38 @@
+{
+  "seeds": [
+    10111,
+    10112,
+    10113
+  ],
+  "arms": [
+    "intact",
+    "disabled",
+    "shuffled",
+    "isolated",
+    "random_teacher",
+    "retain"
+  ],
+  "schedule": [
+    250,
+    460,
+    660
+  ],
+  "heldout": [
+    [
+      90101,
+      "causeway"
+    ],
+    [
+      90102,
+      "islands"
+    ]
+  ],
+  "modules": 32,
+  "genome_sha": "0334a74fb997ea9ff034e7680a149173f15a22722888a6f55381ececb4b4240b",
+  "radius": 3,
+  "initial_resource_fraction": 0.85,
+  "regrowth_multiplier": 4,
+  "genetic_controls": "same cross-foster cohorts and frozen germline counterfactual",
+  "neural_weights": "legacy trained neural policy with runtime neural plasticity frozen",
+  "experimental_gate": "two physical latch choices for existing food; marker visible only to local scout"
+}

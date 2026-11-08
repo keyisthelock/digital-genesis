@@ -1,0 +1,2 @@
+seed,arm,ticks,survivors,births,deaths,introduced,removed,max_generation,food,message_energy,gate_energy,neural_energy,neural_ops,expired_messages,cpu_seconds,energy_residual
+10111,ecosystem,240,27,16,5,0,0,3,4687.647074353877,23.940000000000087,25.599999999999806,14.43483600000003,460701,358,2.296875,1.1297629498585593e-11
