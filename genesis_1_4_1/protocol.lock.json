@@ -1,0 +1,60 @@
+{
+  "version": "1.4.1",
+  "development": [
+    14130,
+    14131,
+    14132
+  ],
+  "evaluation": [
+    14200,
+    14201,
+    14202,
+    14203,
+    14204,
+    14205,
+    14206,
+    14207,
+    14208,
+    14209,
+    14210,
+    14211,
+    14212,
+    14213,
+    14214,
+    14215,
+    14216,
+    14217,
+    14218,
+    14219
+  ],
+  "arms": [
+    "preserved",
+    "standardized",
+    "relevant_removed",
+    "shuffled",
+    "reference"
+  ],
+  "tasks": [
+    "capacity",
+    "effort",
+    "claim"
+  ],
+  "practice_per_seed": 9,
+  "holdout_per_task": 6,
+  "primary": "Mean paired held-out success, preserved minus standardized, collapsed by independent seed.",
+  "secondary": "Seed-level 95% percentile bootstrap, 4000 resamples. No multiplicity adjustment.",
+  "checkpoint": "Genesis 1.4 latest age, preserved arm, lowest seed, independent of performance.",
+  "state_protocol": "Shared archived neural state. Each held-out episode receives a fresh clone of learned local evidence. Cold audits and held-out outcomes never enter training.",
+  "files": {
+    "genesis_1_4_1/memory_audit.py": "5e6e17dee453e5387c507767ee5a7d51934d3a1d977422a8b1caed0e837414db",
+    "genesis_1_4_1/transfer.py": "c5cf23af9abc70133c7d1780d599c16c9e6a2d25e28b2cba9a37b45c108f9034",
+    "genesis_1_4_1/run_transfer.py": "6dc657a0fbc69499aa505fa668bb300da1afcb822c89641dbc79b4b246d21f8b",
+    "genesis_1_4/results/pilot/14030/preserved/final.pkl": "26b5c61aa5a51c03648cf289c957fcbe03bc75fa9038642c693b15bfb18217ad",
+    "genesis_1_3_4/results/pilot_final/13830/combined/chronology.json": "61e3d44c721d1161c6a67103194e94e70ded184319bd4bd6b2e41ae5a30c20c3",
+    "genesis_1_3_3/results/primary/13700/combined/chronology.json": "d42faa885254d9572db42c74b6fd189404d1a124f1f5de992036ea089146014b",
+    "genesis_1_4/embodied.py": "6a2d3be687b759f4724cbacb4c322709359aae1b262956dd779e105985c8a6c3",
+    "genesis_1_4/settlement.py": "1a750c351fafaae8fde2ad468b439073505641cebda5e16c3d6eb1df8ac538ea",
+    "genesis_1_4/run_human.py": "62c15638715093857bf4ed7d9f2cfb999a14cfe8674004fa5fb53bc0308d82cc",
+    "genesis_1_3_1/inquiry.py": "51e92bd8ccd4c443287749ae5fa3c23fcba6abd7ee4675fe4ccc2c249199772c"
+  }
+}

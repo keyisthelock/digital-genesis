@@ -1,6 +1,16 @@
 # Digital Genesis
 
-Digital Genesis is a CPU-first artificial-life research project. It follows simulated organisms as they forage, reproduce, learn signals, and exchange information. The current research version is **Genesis 1.0.1**.
+Digital Genesis is a CPU-first artificial-life research project. It follows simulated organisms as they forage, reproduce, learn signals, and exchange information. The current research version is **Genesis 1.4.1**.
+
+## Latest research · The Memory That Crossed Worlds
+
+Genesis 1.4 brought Omega into a procedural human body in a fictional settlement. In 1.4.1, the memory audit reproduced all 432 archived decisions and found zero lookups of the old Earth keys. A retrieval bridge then let recorded Earth outcomes influence the new planner.
+
+Across 1,800 held-out episodes on 20 paired seeds, preserved memory scored 75.0% versus 71.4% for standardized memory. The paired difference was +3.6 percentage points (95% interval −3.1 to +10.3). One of 60 single-record removals changed a successful choice into a failure. Preserved Omega chose to read 84 times.
+
+[Experiment and reproduction notes](genesis_1_4_1/README.md) · [Scientific report](genesis_1_4_1/evidence/REPORT.md) · [PDF](docs/Digital_Genesis_1.4.1_The_Memory_That_Crossed_Worlds.pdf) · [Paired results](genesis_1_4_1/evidence/paired.csv)
+
+Exact replay requires the original local archives listed in the version guide.
 
 ## Research progress
 
