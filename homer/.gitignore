@@ -1,0 +1,6 @@
+/private/
+/HOMER_01_Starter_Pack/homer_identity.json
+*.sqlite3*
+__pycache__/
+.godot/
+output/

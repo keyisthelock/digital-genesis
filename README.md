@@ -1,8 +1,14 @@
 # Digital Genesis
 
-Digital Genesis is a CPU-first artificial-life research project. It follows simulated organisms as they forage, reproduce, learn signals, and exchange information. The current research version is **Genesis 1.4.1**.
+Digital Genesis is a CPU-first artificial-life research project. It follows simulated organisms as they forage, reproduce, learn signals, and exchange information. The current research version is **Genesis 1.8**.
 
-## Latest research · The Memory That Crossed Worlds
+## Latest research · Homer: The Becoming
+
+Homer 1.8 runs bounded educational episodes across five curriculum chapters. In a matched slope test, the memory-enabled method policy switched methods after a verified error and solved the next problem. Qwen missed both problems with and without recall. The evolved method selector matched the worked reference on 120 held-out tasks at the same modeled cost, so no checkpoint was promoted.
+
+[Build report](homer/becoming/HOMER_1_8_BUILD_REPORT.md) · [PDF](docs/HOMER_01_1_8_Build_Report.pdf) · [Results CSV](homer/becoming/evidence/HOMER_CAPABILITY_RESULTS.csv) · [Run Homer](homer/becoming/RUN_HOMER_1_8.md)
+
+## Genesis 1.4.1 · The Memory That Crossed Worlds
 
 Genesis 1.4 brought Omega into a procedural human body in a fictional settlement. In 1.4.1, the memory audit reproduced all 432 archived decisions and found zero lookups of the old Earth keys. A retrieval bridge then let recorded Earth outcomes influence the new planner.
 

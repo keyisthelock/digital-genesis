@@ -1,0 +1,613 @@
+{
+  "seed": 180018,
+  "splits": {
+    "training": [
+      18000,
+      18001,
+      18002,
+      18003,
+      18004,
+      18005,
+      18006,
+      18007,
+      18008,
+      18009,
+      18010,
+      18011
+    ],
+    "validation": [
+      18100,
+      18101,
+      18102,
+      18103,
+      18104,
+      18105,
+      18106,
+      18107
+    ],
+    "heldout": [
+      18200,
+      18201,
+      18202,
+      18203,
+      18204,
+      18205,
+      18206,
+      18207,
+      18208,
+      18209,
+      18210,
+      18211,
+      18212,
+      18213,
+      18214,
+      18215,
+      18216,
+      18217,
+      18218,
+      18219
+    ]
+  },
+  "skills": [
+    "slope",
+    "probability",
+    "gravity",
+    "stoichiometry",
+    "circuit",
+    "dedup"
+  ],
+  "generations": 6,
+  "population": 10,
+  "policy": {
+    "id": 50,
+    "parent": 40,
+    "bits": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "metrics": {
+    "training": {
+      "candidate": {
+        "passed": 72,
+        "trials": 72,
+        "method_cost": 144,
+        "by_skill": {
+          "slope": {
+            "passed": 12,
+            "cost": 24
+          },
+          "probability": {
+            "passed": 12,
+            "cost": 24
+          },
+          "gravity": {
+            "passed": 12,
+            "cost": 24
+          },
+          "stoichiometry": {
+            "passed": 12,
+            "cost": 24
+          },
+          "circuit": {
+            "passed": 12,
+            "cost": 24
+          },
+          "dedup": {
+            "passed": 12,
+            "cost": 24
+          }
+        }
+      },
+      "worked_baseline": {
+        "passed": 72,
+        "trials": 72,
+        "method_cost": 144,
+        "by_skill": {
+          "slope": {
+            "passed": 12,
+            "cost": 24
+          },
+          "probability": {
+            "passed": 12,
+            "cost": 24
+          },
+          "gravity": {
+            "passed": 12,
+            "cost": 24
+          },
+          "stoichiometry": {
+            "passed": 12,
+            "cost": 24
+          },
+          "circuit": {
+            "passed": 12,
+            "cost": 24
+          },
+          "dedup": {
+            "passed": 12,
+            "cost": 24
+          }
+        }
+      },
+      "shortcut_baseline": {
+        "passed": 2,
+        "trials": 72,
+        "method_cost": 72,
+        "by_skill": {
+          "slope": {
+            "passed": 0,
+            "cost": 12
+          },
+          "probability": {
+            "passed": 0,
+            "cost": 12
+          },
+          "gravity": {
+            "passed": 0,
+            "cost": 12
+          },
+          "stoichiometry": {
+            "passed": 0,
+            "cost": 12
+          },
+          "circuit": {
+            "passed": 0,
+            "cost": 12
+          },
+          "dedup": {
+            "passed": 2,
+            "cost": 12
+          }
+        }
+      }
+    },
+    "validation": {
+      "candidate": {
+        "passed": 48,
+        "trials": 48,
+        "method_cost": 96,
+        "by_skill": {
+          "slope": {
+            "passed": 8,
+            "cost": 16
+          },
+          "probability": {
+            "passed": 8,
+            "cost": 16
+          },
+          "gravity": {
+            "passed": 8,
+            "cost": 16
+          },
+          "stoichiometry": {
+            "passed": 8,
+            "cost": 16
+          },
+          "circuit": {
+            "passed": 8,
+            "cost": 16
+          },
+          "dedup": {
+            "passed": 8,
+            "cost": 16
+          }
+        }
+      },
+      "worked_baseline": {
+        "passed": 48,
+        "trials": 48,
+        "method_cost": 96,
+        "by_skill": {
+          "slope": {
+            "passed": 8,
+            "cost": 16
+          },
+          "probability": {
+            "passed": 8,
+            "cost": 16
+          },
+          "gravity": {
+            "passed": 8,
+            "cost": 16
+          },
+          "stoichiometry": {
+            "passed": 8,
+            "cost": 16
+          },
+          "circuit": {
+            "passed": 8,
+            "cost": 16
+          },
+          "dedup": {
+            "passed": 8,
+            "cost": 16
+          }
+        }
+      },
+      "shortcut_baseline": {
+        "passed": 3,
+        "trials": 48,
+        "method_cost": 48,
+        "by_skill": {
+          "slope": {
+            "passed": 0,
+            "cost": 8
+          },
+          "probability": {
+            "passed": 0,
+            "cost": 8
+          },
+          "gravity": {
+            "passed": 0,
+            "cost": 8
+          },
+          "stoichiometry": {
+            "passed": 2,
+            "cost": 8
+          },
+          "circuit": {
+            "passed": 0,
+            "cost": 8
+          },
+          "dedup": {
+            "passed": 1,
+            "cost": 8
+          }
+        }
+      }
+    },
+    "heldout": {
+      "candidate": {
+        "passed": 120,
+        "trials": 120,
+        "method_cost": 240,
+        "by_skill": {
+          "slope": {
+            "passed": 20,
+            "cost": 40
+          },
+          "probability": {
+            "passed": 20,
+            "cost": 40
+          },
+          "gravity": {
+            "passed": 20,
+            "cost": 40
+          },
+          "stoichiometry": {
+            "passed": 20,
+            "cost": 40
+          },
+          "circuit": {
+            "passed": 20,
+            "cost": 40
+          },
+          "dedup": {
+            "passed": 20,
+            "cost": 40
+          }
+        }
+      },
+      "worked_baseline": {
+        "passed": 120,
+        "trials": 120,
+        "method_cost": 240,
+        "by_skill": {
+          "slope": {
+            "passed": 20,
+            "cost": 40
+          },
+          "probability": {
+            "passed": 20,
+            "cost": 40
+          },
+          "gravity": {
+            "passed": 20,
+            "cost": 40
+          },
+          "stoichiometry": {
+            "passed": 20,
+            "cost": 40
+          },
+          "circuit": {
+            "passed": 20,
+            "cost": 40
+          },
+          "dedup": {
+            "passed": 20,
+            "cost": 40
+          }
+        }
+      },
+      "shortcut_baseline": {
+        "passed": 8,
+        "trials": 120,
+        "method_cost": 120,
+        "by_skill": {
+          "slope": {
+            "passed": 0,
+            "cost": 20
+          },
+          "probability": {
+            "passed": 0,
+            "cost": 20
+          },
+          "gravity": {
+            "passed": 0,
+            "cost": 20
+          },
+          "stoichiometry": {
+            "passed": 2,
+            "cost": 20
+          },
+          "circuit": {
+            "passed": 0,
+            "cost": 20
+          },
+          "dedup": {
+            "passed": 6,
+            "cost": 20
+          }
+        }
+      }
+    }
+  },
+  "promoted": false,
+  "archives": {
+    "omega": "26b5c61aa5a51c03648cf289c957fcbe03bc75fa9038642c693b15bfb18217ad",
+    "identity": "f3bba1b34b1e4a1169e5e89307e6ce57b894db7bce09fa97d593e308fc3887c1"
+  },
+  "task_keys": {
+    "training": [
+      "slope-18000-0",
+      "probability-18000-0",
+      "gravity-18000-0",
+      "stoichiometry-18000-0",
+      "circuit-18000-0",
+      "dedup-18000-0",
+      "slope-18001-0",
+      "probability-18001-0",
+      "gravity-18001-0",
+      "stoichiometry-18001-0",
+      "circuit-18001-0",
+      "dedup-18001-0",
+      "slope-18002-0",
+      "probability-18002-0",
+      "gravity-18002-0",
+      "stoichiometry-18002-0",
+      "circuit-18002-0",
+      "dedup-18002-0",
+      "slope-18003-0",
+      "probability-18003-0",
+      "gravity-18003-0",
+      "stoichiometry-18003-0",
+      "circuit-18003-0",
+      "dedup-18003-0",
+      "slope-18004-0",
+      "probability-18004-0",
+      "gravity-18004-0",
+      "stoichiometry-18004-0",
+      "circuit-18004-0",
+      "dedup-18004-0",
+      "slope-18005-0",
+      "probability-18005-0",
+      "gravity-18005-0",
+      "stoichiometry-18005-0",
+      "circuit-18005-0",
+      "dedup-18005-0",
+      "slope-18006-0",
+      "probability-18006-0",
+      "gravity-18006-0",
+      "stoichiometry-18006-0",
+      "circuit-18006-0",
+      "dedup-18006-0",
+      "slope-18007-0",
+      "probability-18007-0",
+      "gravity-18007-0",
+      "stoichiometry-18007-0",
+      "circuit-18007-0",
+      "dedup-18007-0",
+      "slope-18008-0",
+      "probability-18008-0",
+      "gravity-18008-0",
+      "stoichiometry-18008-0",
+      "circuit-18008-0",
+      "dedup-18008-0",
+      "slope-18009-0",
+      "probability-18009-0",
+      "gravity-18009-0",
+      "stoichiometry-18009-0",
+      "circuit-18009-0",
+      "dedup-18009-0",
+      "slope-18010-0",
+      "probability-18010-0",
+      "gravity-18010-0",
+      "stoichiometry-18010-0",
+      "circuit-18010-0",
+      "dedup-18010-0",
+      "slope-18011-0",
+      "probability-18011-0",
+      "gravity-18011-0",
+      "stoichiometry-18011-0",
+      "circuit-18011-0",
+      "dedup-18011-0"
+    ],
+    "validation": [
+      "slope-18100-0",
+      "probability-18100-0",
+      "gravity-18100-0",
+      "stoichiometry-18100-0",
+      "circuit-18100-0",
+      "dedup-18100-0",
+      "slope-18101-0",
+      "probability-18101-0",
+      "gravity-18101-0",
+      "stoichiometry-18101-0",
+      "circuit-18101-0",
+      "dedup-18101-0",
+      "slope-18102-0",
+      "probability-18102-0",
+      "gravity-18102-0",
+      "stoichiometry-18102-0",
+      "circuit-18102-0",
+      "dedup-18102-0",
+      "slope-18103-0",
+      "probability-18103-0",
+      "gravity-18103-0",
+      "stoichiometry-18103-0",
+      "circuit-18103-0",
+      "dedup-18103-0",
+      "slope-18104-0",
+      "probability-18104-0",
+      "gravity-18104-0",
+      "stoichiometry-18104-0",
+      "circuit-18104-0",
+      "dedup-18104-0",
+      "slope-18105-0",
+      "probability-18105-1",
+      "gravity-18105-1",
+      "stoichiometry-18105-1",
+      "circuit-18105-0",
+      "dedup-18105-0",
+      "slope-18106-0",
+      "probability-18106-0",
+      "gravity-18106-0",
+      "stoichiometry-18106-0",
+      "circuit-18106-0",
+      "dedup-18106-0",
+      "slope-18107-1",
+      "probability-18107-2",
+      "gravity-18107-2",
+      "stoichiometry-18107-2",
+      "circuit-18107-1",
+      "dedup-18107-1"
+    ],
+    "heldout": [
+      "slope-18200-0",
+      "probability-18200-0",
+      "gravity-18200-0",
+      "stoichiometry-18200-0",
+      "circuit-18200-0",
+      "dedup-18200-0",
+      "slope-18201-0",
+      "probability-18201-0",
+      "gravity-18201-0",
+      "stoichiometry-18201-0",
+      "circuit-18201-0",
+      "dedup-18201-0",
+      "slope-18202-0",
+      "probability-18202-1",
+      "gravity-18202-1",
+      "stoichiometry-18202-1",
+      "circuit-18202-0",
+      "dedup-18202-0",
+      "slope-18203-0",
+      "probability-18203-0",
+      "gravity-18203-0",
+      "stoichiometry-18203-0",
+      "circuit-18203-0",
+      "dedup-18203-0",
+      "slope-18204-0",
+      "probability-18204-0",
+      "gravity-18204-0",
+      "stoichiometry-18204-0",
+      "circuit-18204-0",
+      "dedup-18204-0",
+      "slope-18205-0",
+      "probability-18205-0",
+      "gravity-18205-0",
+      "stoichiometry-18205-0",
+      "circuit-18205-0",
+      "dedup-18205-0",
+      "slope-18206-0",
+      "probability-18206-0",
+      "gravity-18206-0",
+      "stoichiometry-18206-0",
+      "circuit-18206-0",
+      "dedup-18206-0",
+      "slope-18207-0",
+      "probability-18207-1",
+      "gravity-18207-1",
+      "stoichiometry-18207-1",
+      "circuit-18207-0",
+      "dedup-18207-0",
+      "slope-18208-0",
+      "probability-18208-1",
+      "gravity-18208-1",
+      "stoichiometry-18208-1",
+      "circuit-18208-0",
+      "dedup-18208-0",
+      "slope-18209-0",
+      "probability-18209-0",
+      "gravity-18209-0",
+      "stoichiometry-18209-0",
+      "circuit-18209-0",
+      "dedup-18209-0",
+      "slope-18210-0",
+      "probability-18210-0",
+      "gravity-18210-0",
+      "stoichiometry-18210-0",
+      "circuit-18210-0",
+      "dedup-18210-0",
+      "slope-18211-0",
+      "probability-18211-0",
+      "gravity-18211-0",
+      "stoichiometry-18211-0",
+      "circuit-18211-0",
+      "dedup-18211-0",
+      "slope-18212-0",
+      "probability-18212-0",
+      "gravity-18212-0",
+      "stoichiometry-18212-0",
+      "circuit-18212-0",
+      "dedup-18212-0",
+      "slope-18213-0",
+      "probability-18213-0",
+      "gravity-18213-0",
+      "stoichiometry-18213-0",
+      "circuit-18213-0",
+      "dedup-18213-0",
+      "slope-18214-0",
+      "probability-18214-0",
+      "gravity-18214-0",
+      "stoichiometry-18214-0",
+      "circuit-18214-0",
+      "dedup-18214-0",
+      "slope-18215-0",
+      "probability-18215-0",
+      "gravity-18215-0",
+      "stoichiometry-18215-0",
+      "circuit-18215-0",
+      "dedup-18215-0",
+      "slope-18216-0",
+      "probability-18216-0",
+      "gravity-18216-0",
+      "stoichiometry-18216-0",
+      "circuit-18216-0",
+      "dedup-18216-0",
+      "slope-18217-0",
+      "probability-18217-2",
+      "gravity-18217-2",
+      "stoichiometry-18217-2",
+      "circuit-18217-0",
+      "dedup-18217-0",
+      "slope-18218-0",
+      "probability-18218-0",
+      "gravity-18218-0",
+      "stoichiometry-18218-0",
+      "circuit-18218-0",
+      "dedup-18218-0",
+      "slope-18219-0",
+      "probability-18219-2",
+      "gravity-18219-2",
+      "stoichiometry-18219-2",
+      "circuit-18219-0",
+      "dedup-18219-0"
+    ]
+  }
+}
